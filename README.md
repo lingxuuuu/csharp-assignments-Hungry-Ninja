@@ -16,6 +16,7 @@ class Food
     public bool IsSweet; 
     // add a constructor that takes in all four parameters: Name, Calories, IsSpicy, IsSweet
 }
+
 Create a Buffet class, which will contain a Menu of Food objects
 add a constructor and set Menu to a hard coded list of 7 or more Food objects you instantiate manually
 build out a Serve method that randomly selects a Food object from the Menu list and returns the Food object
@@ -36,6 +37,7 @@ class Buffet
     {
     }
 }
+
 Create a Ninja class
 add a constructor that sets calorieIntake to 0 and creates a new, empty list of Food objects to FoodHistory
 add a public "getter" property called "IsFull" that returns a boolean based on if the Ninja's calorie intake is greater than 1200 calories
@@ -59,8 +61,9 @@ class Ninja
     {
     }
 }
+
  Add a constructor to the Food class
  Add a constructor and Serve method to the Buffet class
  Add a constructor, IsFull property, and an Eat method to the Ninja class
  In your Program's Main method, instantiate a Buffet and Ninja object, and have the Ninja eat until they are full!
-Files
+
